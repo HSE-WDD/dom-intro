@@ -1,3 +1,29 @@
 {
-  "build":{ "dockerfile": "Dockerfile" }
+  "image": "docker.io/python:latest",
+  "extensions": [
+    "ms-python.python", 
+    "ritwickdey.kiverserver",
+    "ms-vscode.cpptools",
+    "ms-vscode.hexeditor",
+    "vsls-contrib.gitdoc"
+  ],
+  "settings": {
+    "breadcrumbs.enabled": "false",
+    "C_Cpp.autocomplete": "enabled",
+    "extension-uninstaller.uninstall": [
+      "Codeium.codeium",
+      "Codeium.codeium-enterprise-updater",
+      "github.copilot",
+      "github.copilot-nightly",
+      "ms-toolsai.vscode-jupyter-cell-tags",
+      "tabnine.tabnine-vscode"
+    ],
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+      "**/.*":true
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  }
 }
