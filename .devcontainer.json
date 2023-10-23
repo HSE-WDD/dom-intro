@@ -20,7 +20,8 @@
     ],
     "files.autoSave": "afterDelay",
     "files.exclude": {
-      "**/.*":true
+      "**/.*":true,
+      "Dockerfile":true
     }
   },
   "features": {
