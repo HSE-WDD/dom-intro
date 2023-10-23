@@ -9,8 +9,7 @@
     "vsls-contrib.gitdoc",
     "cs50.ddb50",
     "/opt/cs50/extensions/explain50-1.0.0.vsix",
-    "/opt/cs50/extensions/style50-0.0.1.vsix",
-    "pdconsec.vscode-print"
+    "/opt/cs50/extensions/style50-0.0.1.vsix"
   ],
   "settings": {
     "breadcrumbs.enabled": "false",
