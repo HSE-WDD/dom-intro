@@ -37,6 +37,7 @@
       "gitdoc.autoPull": "off",
       "git.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
       "liveServer.settings.donotShowInofMsg": true,
+      "liveServer.settings.CustomBrowser": "chrome",
       "features": {
         "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
       }
