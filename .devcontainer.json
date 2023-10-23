@@ -36,7 +36,51 @@
       "git.autofetch":true,
       "gitdoc.autoPull": "off",
       "git.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
-      "workbench.colorTheme": "GitHub Dark",
+      "window.autoDetectColorScheme": true,
+                "workbench.colorCustomizations": {
+                    "editor.lineHighlightBorder": "#0000", /* Disable gray border-{bottom,top} on active line */
+                    "editorError.foreground": "#0000", /* Disable red squiggles */
+                    "editorWarning.foreground": "#0000", /* Disable yellow squiggles */
+                    "editorGutter.addedBackground": "#0000",
+                    "editorGutter.deletedBackground": "#0000",
+                    "editorGutter.modifiedBackground": "#0000", /* Disable yellow bars to left of lines modified since last commit */
+                    "[GitHub Dark Default]": {
+                        "activityBar.background": "#000",
+                        "editor.background": "#000",
+                        "editor.lineHighlightBackground": "#0000",
+                        "editor.lineHighlightBorder": "#0000",
+                        "editorWhitespace.foreground": "#59A5FC",
+                        "panel.background": "#000",
+                        "sideBar.background": "#000",
+                        "terminal.foreground": "#fff",
+                        "terminal.background": "#000"
+                    },
+                    "[GitHub Light Default]": {
+                        "activityBar.background": "#fff",
+                        "editor.background": "#fff",
+                        "editor.lineHighlightBackground": "#fff0",
+                        "editor.lineHighlightBorder": "#fff0",
+                        "editorWhitespace.foreground": "#1167D7",
+                        "panel.background": "#fff",
+                        "sideBar.background": "#fff",
+                        "terminal.foreground": "#000",
+                        "terminal.background": "#fff"
+                    }
+                },
+                "window.commandCenter": false,
+                "workbench.editorAssociations": {
+                    "*.wav": "vscode.audioPreview"
+                },
+                "workbench.editor.closeOnFileDelete": true,
+                "workbench.editor.enablePreview": false,
+                "workbench.editor.untitled.hint": "hidden",
+                "workbench.iconTheme": "vs-minimal", /* Simplify icons */
+                "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+                "workbench.preferredLightColorTheme": "GitHub Light Default",
+                "workbench.startupEditor": "none",
+                "workbench.statusBar.visible": false,
+                "workbench.tips.enabled": false,
+                "workbench.welcomePage.walkthroughs.openOnInstall": false,
       "features": {
         "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
       }
