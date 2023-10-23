@@ -29,12 +29,12 @@
       "**/.git/objects/**": true,
       "**/.git/subtree-cache/**": true,
       "**/node_modules/*/**": true
-  },
-    "git.autofetch":true,
-    "gitdoc.autoPull": "off",
-    "git.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
-  "features": {
-    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
-  }
+    },
+      "git.autofetch":true,
+      "gitdoc.autoPull": "off",
+      "git.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
+      "features": {
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+      }
+    }
 }
-  
