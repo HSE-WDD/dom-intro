@@ -2,7 +2,7 @@
   "image": "docker.io/python:latest",
   "extensions": [
     "ms-python.python", 
-    "ritwickdey.kiverserver",
+    "ritwickdey.liveServer",
     "ms-vscode.cpptools",
     "ms-vscode.hexeditor",
     "vsls-contrib.gitdoc"
