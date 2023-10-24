@@ -13,7 +13,6 @@
     ],
     "settings": {
       "breadcrumbs.enabled": false,
-      /* "C_Cpp.autocomplete": "enabled", */
       "extension-uninstaller.uninstall": [
         "Codeium.codeium",
         "Codeium.codeium-enterprise-updater",
