@@ -55,7 +55,8 @@
         "liveServer.settings.donotShowInfoMsg": true,
         "liveServer.settings.CustomBrowser": "chrome"
       }
-    }
+    },
+    "codespaces": { "openFiles": ["index.html"]}
   },
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
